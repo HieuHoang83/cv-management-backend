@@ -40,6 +40,7 @@ export class UsersController {
   }
 
   // lấy thông tin của 1 người dùng
+  
   @Public()
   @Get(':id')
   @UseGuards(CheckValidId)
